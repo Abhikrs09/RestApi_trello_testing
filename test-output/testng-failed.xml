@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Trello]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Integration(failed)">
+    <classes>
+      <class name="TestCases.BoardApi">
+        <methods>
+          <include name="status"/>
+          <include name="getBoard"/>
+          <include name="createBoard"/>
+          <include name="updateBoard"/>
+          <include name="deleteBoard"/>
+          <include name="startTest"/>
+        </methods>
+      </class> <!-- TestCases.BoardApi -->
+      <class name="TestCases.CardsApi">
+        <methods>
+          <include name="status"/>
+          <include name="createCard"/>
+          <include name="createBoard"/>
+          <include name="deleteCard"/>
+          <include name="updateCard"/>
+          <include name="deleteBoard"/>
+          <include name="createListForCard"/>
+          <include name="getCard"/>
+          <include name="startTest"/>
+        </methods>
+      </class> <!-- TestCases.CardsApi -->
+      <class name="TestCases.ListApi">
+        <methods>
+          <include name="NegativeTestCase_updateList"/>
+          <include name="updateList"/>
+          <include name="status"/>
+          <include name="createList"/>
+          <include name="createBoard"/>
+          <include name="getList"/>
+          <include name="deleteBoard"/>
+          <include name="startTest"/>
+        </methods>
+      </class> <!-- TestCases.ListApi -->
+      <class name="TestCases.ChecklistApi">
+        <methods>
+          <include name="deleteBoard"/>
+          <include name="status"/>
+          <include name="deleteCard"/>
+          <include name="getChecklist"/>
+          <include name="createCard"/>
+          <include name="createListForCard"/>
+          <include name="createChecklist"/>
+          <include name="createBoard"/>
+          <include name="updateChecklistist"/>
+          <include name="startTest"/>
+        </methods>
+      </class> <!-- TestCases.ChecklistApi -->
+    </classes>
+  </test> <!-- Integration(failed) -->
+</suite> <!-- Failed suite [Trello] -->

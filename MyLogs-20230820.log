@@ -1,0 +1,28 @@
+2023-08-20 15:45:10.584 [main] INFO  TestCases.BoardApi - ****************** Board Post ******************
+2023-08-20 15:45:12.584 [main] INFO  TestCases.BoardApi - ****************** End of Board Post ******************
+2023-08-20 15:45:12.787 [main] INFO  TestCases.BoardApi - ******************Board Get ******************
+2023-08-20 15:45:13.390 [main] INFO  TestCases.BoardApi - ******************End Of Board Get ******************
+2023-08-20 15:45:13.415 [main] INFO  TestCases.BoardApi - ******************Board Update ******************
+2023-08-20 15:45:14.129 [main] INFO  TestCases.BoardApi - ******************End Of Board Update ******************
+2023-08-20 15:45:14.156 [main] INFO  TestCases.BoardApi - ******************Delete Board ******************
+2023-08-20 15:45:15.579 [main] INFO  TestCases.BoardApi - ******************End Of Delete Board ******************
+2023-08-20 15:45:15.600 [main] INFO  TestCases.ListApi - ======================= Board Post ======================
+2023-08-20 15:45:16.289 [main] INFO  TestCases.ListApi - ======================= End of Board Post ======================
+2023-08-20 15:45:16.308 [main] INFO  TestCases.ListApi - =======================Create List ======================
+2023-08-20 15:45:17.025 [main] INFO  TestCases.ListApi - =======================End Of Create List ======================
+2023-08-20 15:45:17.050 [main] INFO  TestCases.ListApi - =======================NegativeTestCase_updateList ======================
+2023-08-20 15:45:17.539 [main] INFO  TestCases.ListApi - =======================End Of NegativeTestCase_updateList ======================
+2023-08-20 15:45:17.556 [main] INFO  TestCases.ListApi - =======================Update List Method======================
+2023-08-20 15:45:18.127 [main] INFO  TestCases.ListApi - =======================End Of Update List ======================
+2023-08-20 15:45:18.144 [main] INFO  TestCases.ListApi - =======================Get List ======================
+2023-08-20 15:45:18.703 [main] INFO  TestCases.ListApi - =======================End Of Get List ======================
+2023-08-20 15:45:18.720 [main] INFO  TestCases.ListApi - ==========================Board Delete ============================
+2023-08-20 15:45:19.986 [main] INFO  TestCases.ListApi - ==========================End Of Board Delete ============================
+2023-08-20 15:45:26.889 [main] INFO  TestCases.ChecklistApi - ====================Create Card =================================
+2023-08-20 15:45:27.554 [main] INFO  TestCases.ChecklistApi - ====================End Of Create Card =================================
+2023-08-20 15:45:27.570 [main] INFO  TestCases.ChecklistApi - ====================Create Checklist=================================
+2023-08-20 15:45:28.151 [main] INFO  TestCases.ChecklistApi - ====================End of Create Checklist=================================
+2023-08-20 15:45:28.165 [main] INFO  TestCases.ChecklistApi - =======================Update CheckList ======================
+2023-08-20 15:45:28.698 [main] INFO  TestCases.ChecklistApi - =======================End Of Update List ======================
+2023-08-20 15:45:28.718 [main] INFO  TestCases.ChecklistApi - =======================Get CheckList ======================
+2023-08-20 15:45:29.233 [main] INFO  TestCases.ChecklistApi - =======================End Of Get CheckList ======================

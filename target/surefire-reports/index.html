@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Trello" class="navigator-link">
+              <span class="suite-name border-passed">Trello</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Trello" class="navigator-link ">
+                    <span>C:\Users\sauhardmishra\eclipse-workspace\RestAssuredAssignment\testNG.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Trello" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Trello" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Trello" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Trello" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Trello" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Trello" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">10 methods,   10 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Trello" class="hide-methods passed suite-Trello"> (hide)</a> <!-- hide-methods passed suite-Trello -->
+                      <a href="#" panel-name="suite-Trello" class="show-methods passed suite-Trello"> (show)</a> <!-- show-methods passed suite-Trello -->
+                    </span>
+                    <div class="method-list-content passed suite-Trello">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Trello" title="TestCases.LabelApiTestCases" class="method navigator-link" hash-for-method="createBoard">createBoard</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Trello" title="TestCases.BoardApiTestCases" class="method navigator-link" hash-for-method="createBoard">createBoard</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Trello" title="TestCases.LabelApiTestCases" class="method navigator-link" hash-for-method="createLabel">createLabel</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Trello" title="TestCases.LabelApiTestCases" class="method navigator-link" hash-for-method="deleteBoard">deleteBoard</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Trello" title="TestCases.BoardApiTestCases" class="method navigator-link" hash-for-method="deleteBoard">deleteBoard</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Trello" title="TestCases.LabelApiTestCases" class="method navigator-link" hash-for-method="deleteLabel">deleteLabel</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Trello" title="TestCases.BoardApiTestCases" class="method navigator-link" hash-for-method="getBoard">getBoard</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Trello" title="TestCases.LabelApiTestCases" class="method navigator-link" hash-for-method="getLabel">getLabel</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Trello" title="TestCases.BoardApiTestCases" class="method navigator-link" hash-for-method="updateBoard">updateBoard</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Trello" title="TestCases.LabelApiTestCases" class="method navigator-link" hash-for-method="updateLabel">updateLabel</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Trello -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Trello" class="panel Trello">
+          <div class="suite-Trello-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">TestCases.BoardApiTestCases</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="createBoard">
+                  </a> <!-- createBoard -->
+                  <span class="method-name">createBoard</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="deleteBoard">
+                  </a> <!-- deleteBoard -->
+                  <span class="method-name">deleteBoard</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getBoard">
+                  </a> <!-- getBoard -->
+                  <span class="method-name">getBoard</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="updateBoard">
+                  </a> <!-- updateBoard -->
+                  <span class="method-name">updateBoard</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Trello-class-passed -->
+          <div class="suite-Trello-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">TestCases.LabelApiTestCases</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="createBoard">
+                  </a> <!-- createBoard -->
+                  <span class="method-name">createBoard</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="createLabel">
+                  </a> <!-- createLabel -->
+                  <span class="method-name">createLabel</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="deleteBoard">
+                  </a> <!-- deleteBoard -->
+                  <span class="method-name">deleteBoard</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="deleteLabel">
+                  </a> <!-- deleteLabel -->
+                  <span class="method-name">deleteLabel</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getLabel">
+                  </a> <!-- getLabel -->
+                  <span class="method-name">getLabel</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="updateLabel">
+                  </a> <!-- updateLabel -->
+                  <span class="method-name">updateLabel</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Trello-class-passed -->
+        </div> <!-- panel Trello -->
+        <div panel-name="test-xml-Trello" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\sauhardmishra\eclipse-workspace\RestAssuredAssignment\testNG.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Trello&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Integration&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;TestCases.BoardApiTestCases&quot;/&gt;
+      &lt;class name=&quot;TestCases.LabelApiTestCases&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Integration --&gt;
+&lt;/suite&gt; &lt;!-- Trello --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Trello" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Trello</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Integration (2 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Trello" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Trello</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Trello" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Trello</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Trello');
+function tableData_Trello() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(10);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'createBoard')
+data.setCell(0, 2, 'TestCases.BoardApiTestCases')
+data.setCell(0, 3, 18657);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'updateLabel')
+data.setCell(1, 2, 'TestCases.LabelApiTestCases')
+data.setCell(1, 3, 5621);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'updateBoard')
+data.setCell(2, 2, 'TestCases.BoardApiTestCases')
+data.setCell(2, 3, 2847);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'getLabel')
+data.setCell(3, 2, 'TestCases.LabelApiTestCases')
+data.setCell(3, 3, 2539);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'getBoard')
+data.setCell(4, 2, 'TestCases.BoardApiTestCases')
+data.setCell(4, 3, 1706);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'createLabel')
+data.setCell(5, 2, 'TestCases.LabelApiTestCases')
+data.setCell(5, 3, 1374);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'deleteBoard')
+data.setCell(6, 2, 'TestCases.LabelApiTestCases')
+data.setCell(6, 3, 1302);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'deleteBoard')
+data.setCell(7, 2, 'TestCases.BoardApiTestCases')
+data.setCell(7, 3, 1252);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'createBoard')
+data.setCell(8, 2, 'TestCases.LabelApiTestCases')
+data.setCell(8, 3, 1177);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'deleteLabel')
+data.setCell(9, 2, 'TestCases.LabelApiTestCases')
+data.setCell(9, 3, 977);
+window.suiteTableData['Trello']= { tableData: data, tableDiv: 'times-div-Trello'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 37 seconds</span>
+              <div id="times-div-Trello">
+              </div> <!-- times-div-Trello -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Trello" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Trello</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Trello" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Trello" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestCases.BoardApiTestCases</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">startTest(public void TestCases.BoardApiTestCases.createBoard() throws java.lang.Exception)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">createBoard</span>
+                <span class="method-start">8057 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">status([TestResult name=createBoard status=SUCCESS method=BoardApiTestCases.createBoard()[pri:1, instance:T...)</span>
+                <span class="method-start">26765 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">startTest(public void TestCases.BoardApiTestCases.getBoard() throws java.lang.Exception)</span>
+                <span class="method-start">29669 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">getBoard</span>
+                <span class="method-start">29674 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">status([TestResult name=getBoard status=SUCCESS method=BoardApiTestCases.getBoard()[pri:2, instance:TestCas...)</span>
+                <span class="method-start">31382 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">startTest(public void TestCases.BoardApiTestCases.updateBoard() throws java.lang.Exception)</span>
+                <span class="method-start">31639 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">updateBoard</span>
+                <span class="method-start">31643 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">status([TestResult name=updateBoard status=SUCCESS method=BoardApiTestCases.updateBoard()[pri:3, instance:T...)</span>
+                <span class="method-start">34508 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">startTest(public void TestCases.BoardApiTestCases.deleteBoard() throws java.lang.Exception)</span>
+                <span class="method-start">34745 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">deleteBoard</span>
+                <span class="method-start">34754 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">status([TestResult name=deleteBoard status=SUCCESS method=BoardApiTestCases.deleteBoard()[pri:4, instance:T...)</span>
+                <span class="method-start">36008 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestCases.LabelApiTestCases</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">startTest(public void TestCases.LabelApiTestCases.createBoard() throws java.lang.Exception)</span>
+                <span class="method-start">36298 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">createBoard</span>
+                <span class="method-start">36301 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">status([TestResult name=createBoard status=SUCCESS method=LabelApiTestCases.createBoard()[pri:1, instance:T...)</span>
+                <span class="method-start">37479 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">startTest(public void TestCases.LabelApiTestCases.createLabel() throws java.lang.Exception)</span>
+                <span class="method-start">37639 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">createLabel</span>
+                <span class="method-start">37644 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">status([TestResult name=createLabel status=SUCCESS method=LabelApiTestCases.createLabel()[pri:2, instance:T...)</span>
+                <span class="method-start">39019 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">startTest(public void TestCases.LabelApiTestCases.getLabel() throws java.lang.Exception)</span>
+                <span class="method-start">39486 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">getLabel</span>
+                <span class="method-start">39531 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">status([TestResult name=getLabel status=SUCCESS method=LabelApiTestCases.getLabel()[pri:3, instance:TestCas...)</span>
+                <span class="method-start">42073 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">startTest(public void TestCases.LabelApiTestCases.updateLabel() throws java.lang.Exception)</span>
+                <span class="method-start">42549 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">updateLabel</span>
+                <span class="method-start">42594 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">status([TestResult name=updateLabel status=SUCCESS method=LabelApiTestCases.updateLabel()[pri:4, instance:T...)</span>
+                <span class="method-start">48219 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">startTest(public void TestCases.LabelApiTestCases.deleteLabel() throws java.lang.Exception)</span>
+                <span class="method-start">49368 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">deleteLabel</span>
+                <span class="method-start">49376 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">status([TestResult name=deleteLabel status=SUCCESS method=LabelApiTestCases.deleteLabel()[pri:5, instance:T...)</span>
+                <span class="method-start">50354 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">startTest(public void TestCases.LabelApiTestCases.deleteBoard() throws java.lang.Exception)</span>
+                <span class="method-start">51168 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">deleteBoard</span>
+                <span class="method-start">51174 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">status([TestResult name=deleteBoard status=SUCCESS method=LabelApiTestCases.deleteBoard()[pri:6, instance:T...)</span>
+                <span class="method-start">52478 ms</span>
+              </div> <!-- configuration-method after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Trello">
+	<test name="Integration">
+		<classes>
+			<class name="TestCases.BoardApi" />
+			<class name="TestCases.ListApi" />
+			<class name="TestCases.CardsApi" />
+			<class name="TestCases.ChecklistApi" />
+		</classes>
+	</test>
+	<!--  Test  -->
+</suite><!--  Suite  -->
