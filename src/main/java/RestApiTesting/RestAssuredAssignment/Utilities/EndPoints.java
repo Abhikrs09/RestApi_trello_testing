@@ -18,4 +18,5 @@ public class EndPoints {
     // rest end points for Cards
     public static String createCardEndPoint = "/cards";
     public static String cardEndPoint = "/cards/";
+//---------------------------------------
 }
